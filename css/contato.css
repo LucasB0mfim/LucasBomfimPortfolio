@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #bfb0a0;
+}
+
+.conteiner {
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > .conteiner {
+    padding: 20px;
+}
+
+header > .conteiner img {
+    height: 40px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+}
+
+nav ul li a {
+    color: #f7efe7;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Signika Negative', sans-serif;
+    border: 3px solid #f7efe7;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+
+.conteiner ul li a:hover {
+    filter: blur(.7px);
+}
+
+#MeContrate h1 {
+    margin-top: 20px;
+    font-size: 40px;
+    color: #312c38;
+    font-family: 'Signika Negative', sans-serif;
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+    line-height: 0.5;
+}
+
+#MeContrate h2 {
+    font-size: 25px;
+    color: black;
+    font-family: 'Signika Negative', sans-serif;
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    line-height: 0.3;
+}
+
+input, button, textarea {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 15px;
+}
+
+form input, button {
+    display: block;
+    width: 300px;
+    height: 50px;
+    border: 2px solid #f7efe7;
+    border-radius: 3px;
+    color: black;
+    outline: none;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
+    resize: none;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    border: 2px solid #f7efe7;
+    outline: none;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+button {
+    background-color: #bfb0a0;
+    border-color: #f7efe7;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e0d0be;
+}
+
+.redes img {
+    height: 50px;
+    margin-left: 20px;
+}
+
+.redes {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#email-tm {
+    height: 50.3px 50px;
+}
+
+.logos {
+    display: block;
+}
+
+.logos #insta, #face, #emaill {
+    transition: all 0.2s linear;
+}
+
+.logos #insta:hover, #face:hover, #emaill:hover {
+    scale: 1.5;
+}
+
+#insta, #face, #emaill {
+    margin-bottom: 10px;
+}
+
+#MeContrate {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#plane {
+    position: relative;
+    top: 75px;
+    height: 50px;
+    animation: flutter 5s
+    ease-in-out infinite;
+}
+
+@keyframes flutter {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}

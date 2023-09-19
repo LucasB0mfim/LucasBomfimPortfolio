@@ -19,9 +19,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 18px;
+    padding: 30px;
 }
-
 
 .conteiner {
     max-width: 1366px;
@@ -30,7 +29,7 @@
 }
 
 .conteiner img {
-    height: 60px;
+    height: 40px;
 }
 
 .conteiner ul li {
@@ -50,6 +49,10 @@
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left: 20px;
+}
+
+.conteiner ul li a:hover {
+    filter: blur(1px);
 }
 
 .intro {
