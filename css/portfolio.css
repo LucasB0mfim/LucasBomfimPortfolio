@@ -51,12 +51,12 @@ nav ul li a {
 }
 
 #intro {
-    padding-top: 130px;
+    padding-top: 200px;
 }
 
 #intro h2, h3 {
     color: #312c38;
-    font-size: 40px;
+    font-size: 45px;
     font-family: 'Signika Negative', sans-serif;
     display: flex;
     justify-content: center;
@@ -107,4 +107,3 @@ h3 {
     width: 100%;
     margin: 0 auto;
 }
-
