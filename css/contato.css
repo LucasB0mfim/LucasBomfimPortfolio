@@ -84,7 +84,7 @@ input, button, textarea {
 
 form input, button {
     display: block;
-    width: 300px;
+    width: 400px;
     height: 50px;
     border: 2px solid #f7efe7;
     border-radius: 3px;
@@ -95,7 +95,7 @@ form input, button {
 }
 
 textarea {
-    width: 300px;
+    width: 400px;
     height: 150px;
     resize: none;
     border-radius: 3px;
@@ -128,10 +128,6 @@ button:hover {
     justify-content: center;
 }
 
-#email-tm {
-    height: 50.3px 50px;
-}
-
 .logos {
     display: block;
 }
@@ -149,8 +145,7 @@ button:hover {
 }
 
 #MeContrate {
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 #plane {
@@ -159,6 +154,7 @@ button:hover {
     height: 50px;
     animation: flutter 5s
     ease-in-out infinite;
+    display: none;
 }
 
 @keyframes flutter {
@@ -168,4 +164,11 @@ button:hover {
     50% {
         transform: translateY(-15px);
     }
+}
+
+.pedido {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    color: rgb(104, 133, 62);
+    display: none;
 }
