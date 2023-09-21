@@ -81,10 +81,9 @@
 
 @media screen and (max-width: 938px) {
     .conteiner {
-        max-width: 720px;
+        max-width: 320px;
         width: 100%;
         margin: 0 auto;
-        margin-right: 20px;
     }
     .conteiner ul li a {
         font-size: 10px;
