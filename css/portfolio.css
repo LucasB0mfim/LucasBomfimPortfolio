@@ -107,3 +107,37 @@ h3 {
     width: 100%;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 500px) {
+    header {
+        padding: 30px 10px;
+    }
+    .conteiner {
+        max-width: auto;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .conteiner ul li a {
+        font-size: 10px;
+    }
+    .conteiner img {
+        height: 30px;
+    }
+    #intro h2 {
+        font-size: 23px;
+    }
+    #intro h3 {
+        font-size: 13px;
+    }
+    #intro img {
+        height: 200px;
+        margin-top: 100px;
+    }
+    #me .caixa h1 {
+        font-size: 19px;
+    }
+    #me .caixa h2 {
+        font-size: 15px;
+        margin: 0 10px;
+    }
+}
