@@ -78,3 +78,26 @@
     color: #e73c37;
     font-size: 50px;
 }
+
+@media screen and (max-width: 938px) {
+    .conteiner ul li a {
+        font-size: 10px;
+    }
+    .intro h1, h2 {
+        font-size: 20px;
+    }
+    .intro h1 {
+        margin-top: 100px;
+    }
+    .destaque {
+        color: #e73c37;
+        font-size: 25px;
+    }
+    .intro p {
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    .conteiner img {
+        height: 30px;
+    }
+}
