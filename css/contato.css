@@ -130,6 +130,7 @@ button:hover {
 
 .logos {
     display: block;
+    height: 100%;
 }
 
 .logos #insta, #face, #emaill {
