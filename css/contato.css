@@ -70,7 +70,7 @@ nav ul li a {
     padding: 18px;
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     line-height: 0.3;
 }
 
@@ -130,7 +130,6 @@ button:hover {
 
 .logos {
     display: block;
-    max-height: 100%;
 }
 
 .logos #insta, #face, #emaill {
